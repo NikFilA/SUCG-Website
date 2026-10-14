@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G5PQ335LTC"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -10,10 +10,11 @@
 
   gtag('config', 'G-G5PQ335LTC');
 </script>
+
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>SUCG – Seattle University Consulting Group</title>
-<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -118,7 +119,7 @@ nav.scrolled{box-shadow:0 2px 20px rgba(0,0,0,.09)}
 
 /* ─── CTA BANNER ─── */
 .cta-band{position:relative;height:420px;display:flex;align-items:center;justify-content:center;overflow:hidden}
-.cta-band-bg{position:absolute;inset:0;background-image:url('https://imgur.com/xtNtMA8.jpg');background-size:cover;background-position:center}
+.cta-band-bg{position:absolute;inset:0;background-image:url('assets/credibility/xtNtMA8.jpg');background-size:cover;background-position:center}
 .cta-band-ov{position:absolute;inset:0;background:linear-gradient(135deg,rgba(139,0,0,.9) 0%,rgba(40,0,0,.78) 100%)}
 .cta-band-c{position:relative;text-align:center;padding:2rem 5%;max-width:700px}
 .cta-band-c h2{color:#fff;margin-bottom:1rem}
@@ -158,7 +159,12 @@ footer{background:var(--black);color:rgba(255,255,255,.42);padding:4rem 5% 0}
   .stat-strip-i{flex-direction:column;align-items:flex-start}.stat-div{width:40px;height:1px}
   .foot-i{grid-template-columns:1fr}
 }
-</style>
+
+.home-proof{padding:3.6rem 0;background:white;border-bottom:1px solid var(--border);scroll-margin-top:90px}.proof-layout{display:grid;grid-template-columns:1.05fr 1fr 1fr;gap:24px;align-items:stretch}.proof-intro{padding:9px 20px 9px 0;display:flex;flex-direction:column;justify-content:center}.proof-intro h2{font-size:2.5rem;margin:5px 0 13px}.proof-intro p{font-size:.84rem;color:var(--muted);line-height:1.7;margin-bottom:18px}.proof-intro>a{font-size:.76rem;font-weight:600;color:var(--red);align-self:flex-start;border-bottom:1px solid #c00;padding-bottom:5px}.proof-card{display:flex;flex-direction:column;padding:23px;background:var(--light);border:1px solid var(--border);border-top:2px solid var(--red);transition:box-shadow .25s,transform .25s}.proof-card:hover{transform:translateY(-3px);box-shadow:0 10px 24px #0001}.proof-card:focus-visible{outline:2px solid var(--red);outline-offset:4px}.proof-logo{height:37px;display:flex;align-items:center;gap:12px;margin-bottom:14px}.proof-logo img{width:78px;height:32px;object-fit:contain;object-position:left center}.proof-logo img.ping{width:31px;height:37px}.proof-logo span{font-size:.68rem;color:var(--muted)}.proof-card h3{font-size:1.48rem;line-height:1.12;margin-bottom:13px}.proof-card blockquote{font-family:'Cormorant Garamond',serif;font-size:1.14rem;line-height:1.35;margin-bottom:14px}.proof-credit{font-size:.65rem;color:var(--muted);margin-top:auto}.proof-link{font-size:.7rem;color:var(--red);font-weight:600;margin-top:18px;display:flex;justify-content:space-between}.home-review{position:fixed;bottom:14px;right:14px;z-index:950;background:white;border:1px solid var(--border);padding:10px 14px;font-size:11px;box-shadow:0 4px 20px #0001}.home-review a{color:var(--red);margin-left:12px}
+@media(max-width:960px){.proof-layout{grid-template-columns:1fr 1fr}.proof-intro{grid-column:1/-1;padding:0}.proof-intro h2{font-size:2.2rem}.home-proof{padding:3rem 0}}
+@media(max-width:600px){.proof-layout{grid-template-columns:1fr}.proof-intro{grid-column:auto}.proof-card{padding:22px}.home-review{left:10px;right:10px;text-align:center;font-size:10px}.hero-c{padding-top:2rem;padding-bottom:2rem}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.fade{opacity:1;transform:none;transition:none}.card,.offer-card{transition:none}}.proof-card{transition:opacity .65s ease,transform .65s ease,box-shadow .25s}.proof-card.fade-d1{transition-delay:.1s}.proof-card.fade-d2{transition-delay:.2s}@media(prefers-reduced-motion:reduce){.proof-card{transition:none;transition-delay:0s}}.proof-card blockquote strong{font-weight:700;color:#9b1818}</style>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"/>
 </head>
 <body>
 
@@ -222,10 +228,11 @@ footer{background:var(--black);color:rgba(255,255,255,.42);padding:4rem 5% 0}
   </div>
 </div>
 
+<section class="home-proof" id="client-work"><div class="container proof-layout"><div class="proof-intro fade"><span class="eyebrow">Selected Client Work</span><h2>Our work.<br>Their perspective.</h2><p>See how we’ve helped organizations turn business challenges into practical next steps.</p><a href="clients.html#engagements">Explore Recent Engagements →</a></div><a class="proof-card fade fade-d1" href="clients.html#engagements" aria-label="Explore our KONE engagement and testimonial"><div class="proof-logo"><img src="assets/credibility/kone.svg" alt="KONE logo"><span>KONE</span></div><h3>Market intelligence.<br>Sharper targeting.</h3><blockquote>“The end result was a prioritized prospect map that has made targeting and account planning significantly easier for the Business Development Team, and <strong>I'm confident will result in increased revenue.</strong>”</blockquote><span class="proof-credit">Gabe Kaemingk · KONE</span><span class="proof-link">Explore the engagement <span aria-hidden="true">↗</span></span></a><a class="proof-card fade fade-d2" href="clients.html#engagements" aria-label="Explore our 8 Ping Yang engagement and testimonial"><div class="proof-logo"><img class="ping" src="assets/credibility/ping.png" alt="8 Ping Yang logo"><span>8 Ping Yang</span></div><h3>Fresh ideas.<br>Practical growth.</h3><blockquote>“<strong>I would highly recommend the Seattle University Consulting Group</strong> to other small businesses looking for fresh ideas, strategic guidance, and a team that is committed to making a meaningful impact.”</blockquote><span class="proof-credit">Benjamin Evans · 8 Ping Yang</span><span class="proof-link">Explore the engagement <span aria-hidden="true">↗</span></span></a></div></section>
 <!-- INTRO SPLIT -->
 <div class="intro-split">
   <div class="intro-img fade">
-    <img src="https://imgur.com/tkRzNfN.jpg" alt="Students collaborating"/>
+    <img src="assets/credibility/tkRzNfN.jpg" alt="Students collaborating"/>
   </div>
   <div class="intro-text fade fade-d1">
     <span class="eyebrow">Who We Are</span>
@@ -245,7 +252,7 @@ footer{background:var(--black);color:rgba(255,255,255,.42);padding:4rem 5% 0}
     </div>
     <div class="cards">
       <div class="card fade">
-        <div class="card-img" style="background-image:url('https://imgur.com/OR7lkA1.jpg')"></div>
+        <div class="card-img" style="background-image:url('assets/credibility/OR7lkA1.jpg')"></div>
         <div class="card-body">
           <span class="eyebrow">For Organizations</span>
           <h3>For Clients</h3>
@@ -254,7 +261,7 @@ footer{background:var(--black);color:rgba(255,255,255,.42);padding:4rem 5% 0}
         </div>
       </div>
       <div class="card fade fade-d1">
-        <div class="card-img" style="background-image:url('https://imgur.com/g3kMFfZ.jpg')"></div>
+        <div class="card-img" style="background-image:url('assets/credibility/g3kMFfZ.jpg')"></div>
         <div class="card-body">
           <span class="eyebrow">For SU Students</span>
           <h3>For Students</h3>
